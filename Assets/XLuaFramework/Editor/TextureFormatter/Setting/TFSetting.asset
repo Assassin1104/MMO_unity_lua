@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2cd0de500800e4f8ca12a3c6e5d892, type: 3}
+  m_Name: TFSetting
+  m_EditorClassIdentifier: 
+  standaloneDefault: -1
+  androidDefault: -1
+  iosDefault: -1
+  formatList:
+  - _name: ui
+    index: -1
+    iType: 0
+    standaloneSet:
+      format: 12
+      maxSize: 2048
+      compressionQuality: 0
+      loadType: 0
+    androidSet:
+      format: 47
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    iosSet:
+      format: 57
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    paths:
+    - Assets/AssetBundleRes/ui
+    nonPowerOf2: 0
+    useMipMaps: 0
+    isReadable: 0
+  - _name: scene_obj
+    index: -1
+    iType: 0
+    standaloneSet:
+      format: 10
+      maxSize: 2048
+      compressionQuality: 0
+      loadType: 0
+    androidSet:
+      format: 34
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    iosSet:
+      format: 51
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    paths:
+    - Assets/AssetBundleRes/role
+    - Assets/AssetBundleRes/npc
+    - Assets/AssetBundleRes/monster
+    nonPowerOf2: 0
+    useMipMaps: 1
+    isReadable: 0
+  - _name: terrain
+    index: -1
+    iType: 0
+    standaloneSet:
+      format: 12
+      maxSize: 2048
+      compressionQuality: 0
+      loadType: 0
+    androidSet:
+      format: 47
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    iosSet:
+      format: 56
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    paths:
+    - Assets/AssetBundleRes/scene
+    nonPowerOf2: 0
+    useMipMaps: 1
+    isReadable: 0
+  - _name: sound
+    index: -1
+    iType: 2
+    standaloneSet:
+      format: -1
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 1
+    androidSet:
+      format: -1
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    iosSet:
+      format: -1
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    paths:
+    - Assets/AssetBundleRes/sound
+    nonPowerOf2: 0
+    useMipMaps: 0
+    isReadable: 0
+  - _name: font
+    index: -1
+    iType: 0
+    standaloneSet:
+      format: 4
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    androidSet:
+      format: 4
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    iosSet:
+      format: 4
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    paths:
+    - Assets/AssetBundleRes/font
+    nonPowerOf2: 0
+    useMipMaps: 0
+    isReadable: 0
+  - _name: effect
+    index: -1
+    iType: 0
+    standaloneSet:
+      format: 12
+      maxSize: 2048
+      compressionQuality: 0
+      loadType: 0
+    androidSet:
+      format: 47
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    iosSet:
+      format: 55
+      maxSize: 2048
+      compressionQuality: 50
+      loadType: 0
+    paths: []
+    nonPowerOf2: 0
+    useMipMaps: 0
+    isReadable: 0
